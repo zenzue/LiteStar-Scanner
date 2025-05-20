@@ -15,6 +15,7 @@ A static analysis tool built to detect code smells, security vulnerabilities, se
 ## Usage
 
 ```bash
+pip install -r requirements.txt
 python main.py /path/to/litestar/project
 ```
 
@@ -23,7 +24,6 @@ A `litestar_analysis_report.md` will be generated after scanning.
 ## Requirements
 
 - Python 3.8+
-- Optional: `pip install pip-audit colorama`
 
 ## Author
 
